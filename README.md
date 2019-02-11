@@ -17,7 +17,7 @@ were skewing results and he standard deviation.  Basically, made sure batters ha
 The db.py file has convenience functions for the ORM that I used called peewee.  The ORM handles the table creation and provides a fast way to interact
 with the database.  This makes it easy to change database backends and eliminates having to deal with ddl directly. (postgresql password needs to be set in here if running with postgresql).
 
-To Run
+To Run (libraries are checked into repo so you may not need to run the pip commands!)
 pip install beautifulsoup4
 pip install requests
 pip install peewee
